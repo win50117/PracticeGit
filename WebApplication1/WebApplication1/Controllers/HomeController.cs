@@ -6,8 +6,13 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Controllers
 {
+    public ActionResult ChingJen()
+    {
+        return View();
+    }
+
     public class HomeController : Controller
-    {//test 分支
+    {
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -15,16 +20,9 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult ChingJen()
-        {
-            return View();
-        }
-
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
-            return View();
         }
 
         public ActionResult Index()
@@ -32,10 +30,8 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult Mamegoma()
+        public ActionResult Teresa()
         {
-            ViewBag.Message = "小海豹小海豹小海豹";
-
             return View();
         }
 
@@ -45,3 +41,4 @@ namespace WebApplication1.Controllers
         }
     }
 }
+    }
