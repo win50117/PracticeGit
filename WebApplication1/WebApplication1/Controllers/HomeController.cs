@@ -17,24 +17,25 @@ namespace WebApplication1.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your application description page.";
 
-            return View();
-        }
+            public ActionResult Index()
+            {
+                return View();
+            }
 
-        public ActionResult Index()
-        {
-            return View();
-        }
+            public ActionResult Contact()
+            {
+                ViewBag.Message = "Your contact page.";
 
-        public ActionResult Teresa()
-        {
-            return View();
-        }
+                public ActionResult Teresa()
+                {
+                    return View();
+                }
 
-        public ActionResult ChingJen()
-        {
-            return View();
+                public ActionResult ChingJen()
+                {
+                    return View();
+                }
+            }
         }
-    }
-}
