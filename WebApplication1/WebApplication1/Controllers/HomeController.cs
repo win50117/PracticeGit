@@ -34,4 +34,11 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
+        public ActionResult ohohoh()
+        {
+            return View();
+        }
+    }
+}
     }
