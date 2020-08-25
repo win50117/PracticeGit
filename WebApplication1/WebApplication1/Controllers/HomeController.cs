@@ -6,6 +6,11 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Controllers
 {
+    public ActionResult ChingJen()
+    {
+        return View();
+    }
+
     public class HomeController : Controller
     {
         public ActionResult About()
@@ -17,25 +22,16 @@ namespace WebApplication1.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your application description page.";
-
-            public ActionResult Index()
-            {
-                return View();
-            }
-
-            public ActionResult Contact()
-            {
-                ViewBag.Message = "Your contact page.";
-
-                public ActionResult Teresa()
-                {
-                    return View();
-                }
-
-                public ActionResult ChingJen()
-                {
-                    return View();
-                }
-            }
+            ViewBag.Message = "Your contact page.";
         }
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Teresa()
+        {
+            return View();
+        }
+    }
