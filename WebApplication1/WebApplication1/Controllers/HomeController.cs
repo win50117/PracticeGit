@@ -21,7 +21,7 @@ namespace WebApplication1.Controllers
         }
 
         public ActionResult Contact()
-        {//註解
+        {//註解2
             ViewBag.Message = "Your contact page.";
             return View();
         }
