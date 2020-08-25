@@ -7,11 +7,16 @@ using System.Web.Mvc;
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
-    {
+    {//test 分支
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
+            return View();
+        }
+
+        public ActionResult ChingJen()
+        {
             return View();
         }
 
@@ -31,11 +36,6 @@ namespace WebApplication1.Controllers
         {
             ViewBag.Message = "小海豹小海豹小海豹";
 
-            return View();
-        }
-
-        public ActionResult ChingJen()
-        {
             return View();
         }
 
