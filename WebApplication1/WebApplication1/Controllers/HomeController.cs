@@ -7,7 +7,7 @@ using System.Web.Mvc;
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
-    {
+    {//test 分支
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -21,8 +21,9 @@ namespace WebApplication1.Controllers
         }
 
         public ActionResult Contact()
-        {//註解
+        {
             ViewBag.Message = "Your contact page.";
+
             return View();
         }
 
@@ -31,12 +32,14 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult ohohoh()
+        public ActionResult Mamegoma()
         {
+            ViewBag.Message = "小海豹小海豹小海豹23";
+
             return View();
         }
 
-        public ActionResult Teresa()
+        public ActionResult ohohoh()
         {
             return View();
         }
