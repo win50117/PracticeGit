@@ -34,7 +34,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult Mamegoma()
         {
-            ViewBag.Message = "小海豹小海豹小海豹2";
+            ViewBag.Message = "小海豹小海豹小海豹23";
 
             return View();
         }
